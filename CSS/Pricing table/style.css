@@ -1,0 +1,43 @@
+.container{
+   
+    height: 100vh;
+    /* justify-content: center; */
+    text-align: center;
+    align-content: center;
+    justify-content: space-between;
+    display: flexbox;
+    
+}
+
+.one{
+    height: 250px;
+    width: 250px;
+    background-color: lightgray;
+     
+    
+    display: inline-block;
+    
+}
+.two{
+    height: 250px;
+    width: 250px;
+    background-color: lightgray;
+     
+     
+    display: inline-block;
+}
+.three{
+    height: 250px;
+    width: 250px;
+    background-color: lightgray;
+    
+     
+    display: inline-block;
+}
+button{
+    background-color: rgb(228, 36, 68);
+    color: white;
+    border-radius: 5px;
+    border: 0;
+    padding: 4px;
+}
