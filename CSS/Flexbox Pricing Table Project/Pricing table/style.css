@@ -2,14 +2,24 @@
    
     height: 100vh;
     /* justify-content: center; */
-    text-align: center;
-    align-content: center;
+    
+    align-items: center;
     justify-content: space-between;
-    display: flexbox;
+    display: flex;
+    gap: 2rem;
     
 }
 
-.one{
+.pricing{
+    flex: 1;
+    max-height: 400px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    text-align: center;
+}
+
+/* .one{
     height: 250px;
     width: 250px;
     background-color: lightgray;
@@ -40,4 +50,4 @@ button{
     border-radius: 5px;
     border: 0;
     padding: 4px;
-}
+} */
